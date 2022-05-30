@@ -49,13 +49,14 @@ header .logo, header nav, header .login {
     align-items: center;
 }
 .sectiont3 {
+    height: 50vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .container, .container2, .greencont, .col, .colb {
-    height: 80%;
+    height: 85%;
 }
 .container {
     width: 40%;
@@ -69,7 +70,7 @@ header .logo, header nav, header .login {
 /* Footer */
 .foot {
     background-color: #23272a ;
-    height: 50vh;
+    height: 45vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -119,7 +120,6 @@ button {
 }
 .debug .sectiont2, .section1 {
     background-color: #d3d3d3;
-    height: 40vh;
 }
 .debug .sectiont3 {
     height: 60vh;
