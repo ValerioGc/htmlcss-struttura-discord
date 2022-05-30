@@ -4,13 +4,16 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Cabin', sans-serif;
+}
 header {
     height: 10vh;
     display: flex;
     align-items: center;
 }
 .headerhigh {
-    width:80%;
+    width:70%;
     margin: auto;
     display: flex;
     justify-content:center;
@@ -31,19 +34,36 @@ header .login {
     flex-basis: 25%;
     text-align: right;
 }
-header .logo, header nav, header .login{
+header .logo, header nav, header .login {
     padding: 1% 1%;
 }
 /* Parte inferiore header  */
-.headerlow {
-    width: 100%;
-}
-.containerhead{
+
+.containerhead {
     width: 50%;
-    height: 35vh;
+    height: 30vh;
     margin: 2% auto;
 }
 /* sezioni pagina */
+.sectiont1, .sectiont2 {
+    display: flex;
+    height: 35vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container, .container2 {
+    height: 80%;
+}
+.container {
+    width: 40%;
+}
+.container2{
+    width: 30%;
+}
+/* Footer */
+
+
 
 
 /* regole debug */
@@ -56,9 +76,19 @@ header .logo, header nav, header .login{
 .debug .logo, .debug nav, .debug .login {
     background-color: #daa520;
 }
-.headerlow {
+.debug .headerlow {
     background-color: #00008b;
 }
 .debug .containerhead {
     background-color: #ee82ee; 
+}
+.debug .sectiont2, .section1 {
+    background-color: #d3d3d3;
+    height: 35vh;
+}
+.debug .container {
+    background-color: #1E90FF;
+}
+.debug .container2{
+    background-color: #FFC0CB;
 }
