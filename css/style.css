@@ -4,16 +4,13 @@
     padding: 0;
 }
 
-body {
-    font-family: 'Cabin', sans-serif;
-}
 header {
     height: 10vh;
     display: flex;
     align-items: center;
 }
 .headerhigh {
-    width:70%;
+    width:60%;
     margin: auto;
     display: flex;
     justify-content:center;
@@ -40,32 +37,70 @@ header .logo, header nav, header .login {
 /* Parte inferiore header  */
 
 .containerhead {
-    width: 50%;
+    width: 40%;
     height: 30vh;
     margin: 2% auto;
 }
 /* sezioni pagina */
 .sectiont1, .sectiont2 {
     display: flex;
-    height: 35vh;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+}
+.sectiont3 {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.container, .container2 {
+.container, .container2, .greencont, .col, .colb {
     height: 80%;
 }
 .container {
     width: 40%;
 }
 .container2{
-    width: 30%;
+    width: 20%;
+}
+.greencont {
+    width: 60%; 
 }
 /* Footer */
-
-
-
-
+.foot {
+    background-color: #23272a ;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.col, .colb {
+    margin-top: 5px;
+}
+.colb {
+    width: 20%;
+}
+.col {
+    width: 10%;
+}
+/* Parte finale footer */
+.low {
+    margin-top: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 10vh;
+}
+.footlcont {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    align-items: center;
+}
+button {
+    padding:1%;
+    margin: 1% 0;
+}
 /* regole debug */
 .debug * {
     border: 2px dotted black;
@@ -79,16 +114,32 @@ header .logo, header nav, header .login {
 .debug .headerlow {
     background-color: #00008b;
 }
-.debug .containerhead {
+.debug .containerhead, .colb{
     background-color: #ee82ee; 
 }
 .debug .sectiont2, .section1 {
     background-color: #d3d3d3;
-    height: 35vh;
+    height: 40vh;
+}
+.debug .sectiont3 {
+    height: 60vh;
 }
 .debug .container {
-    background-color: #1E90FF;
+    background-color: #1e90ff;
 }
-.debug .container2{
-    background-color: #FFC0CB;
+.debug .container2 {
+    background-color: #ffc0cb;
 }
+.debug .greencont {
+    background-color: #228b22;
+}
+.debug .col{
+    background-color: #20b2aa ;
+}
+.debug .footlcont{
+    background-color: #1ec299 ;
+}
+.debug button {
+    background-color: grey ;
+}
+
