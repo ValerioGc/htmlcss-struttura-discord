@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body{
+    font-family: '', sans-serif;
+}
+
 header {
     height: 10vh;
     display: flex;
@@ -47,13 +51,13 @@ header .logo, header nav, header .login {
     align-items: center;
 }
 .sectiont1, .sectiont2, footer {
-    height: 50vh;
+    height: 55vh;
 }
 .sectiont3, .sectiont2 {
     background-color: #d3d3d3;
 }
 .sectiont3 {
-    height: 60vh;
+    height: 65vh;
 }
 .container, .container2, .greencont, .col, .colb {
     height: 85%;
@@ -101,9 +105,17 @@ button {
     padding:1%;
     margin: 1% 0;
 }
-/* regole debug */
+/* Pattern onda tra sezioni */
+.wavepattern {
+    margin-bottom: -5px;
+    filter: invert(71%) sepia(99%) saturate(1%) hue-rotate(314deg) brightness(95%) contrast(101%);
+}
+.mirror {
+    transform: rotate(180deg);
+}
+/* Regole di Debug */
 .debug * {
-    border: 2px dotted black;
+    border: 1px dotted black;
 }
 .debug header {
     background-color: #add8e6;
@@ -135,4 +147,3 @@ button {
 .debug button {
     background-color: grey ;
 }
-
