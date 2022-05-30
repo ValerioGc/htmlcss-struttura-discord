@@ -3,7 +3,6 @@
     box-sizing: border-box;
     padding: 0;
 }
-
 header {
     height: 10vh;
     display: flex;
@@ -35,30 +34,29 @@ header .logo, header nav, header .login {
     padding: 1% 1%;
 }
 /* Parte inferiore header  */
-
 .containerhead {
-    width: 40%;
     height: 30vh;
     margin: 2% auto;
 }
 /* sezioni pagina */
-.sectiont1, .sectiont2 {
+.sectiont1, .sectiont2, .sectiont3 {
     display: flex;
-    height: 50vh;
     justify-content: center;
     align-items: center;
+}
+.sectiont1, .sectiont2, footer {
+    height: 60vh;
+}
+.sectiont2, .sectiont3 {
+    background-color: #d3d3d3;
 }
 .sectiont3 {
-    height: 50vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 65vh;
 }
-
 .container, .container2, .greencont, .col, .colb {
     height: 85%;
 }
-.container {
+.containerhead, .container {
     width: 40%;
 }
 .container2{
@@ -115,14 +113,8 @@ button {
 .debug .headerlow {
     background-color: #00008b;
 }
-.debug .containerhead, .colb{
+.debug .containerhead, .debug .colb {
     background-color: #ee82ee; 
-}
-.debug .sectiont2, .section1 {
-    background-color: #d3d3d3;
-}
-.debug .sectiont3 {
-    height: 60vh;
 }
 .debug .container {
     background-color: #1e90ff;
@@ -133,13 +125,13 @@ button {
 .debug .greencont {
     background-color: #228b22;
 }
-.debug .col{
-    background-color: #20b2aa ;
+.debug .col {
+    background-color: #20b2aa;
 }
-.debug .footlcont{
-    background-color: #1ec299 ;
+.debug .footlcont {
+    background-color: #1ec299;
 }
 .debug button {
-    background-color: grey ;
+    background-color: grey;
 }
 
